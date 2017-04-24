@@ -1,0 +1,144 @@
+#Header {
+	font-family: 'Megrim', cursive;
+	background-color: #4c3a63;
+}
+
+#footer {
+	font-family: 'Megrim', cursive;
+	background-color: #4c3a63;
+}
+
+#footer > p {
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+	padding-left: 8px;
+	padding-top: 8px;
+}
+
+
+#Titulo {
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+	padding-left: 2%;
+	background-color: #4c3a63;
+}
+
+#titleBreak {
+	background-color: #291a3a;
+}
+
+/*#NavBreak {
+	height: 1px;
+	background-color: #291a3a;
+}*/
+
+#Navigation {
+	background-color: #291a3a;
+	margin-left: .5px;
+}
+
+/*.nav-tabs {
+	background-color: #291a3a;
+}*/
+
+.nav-tabs > li.active > a {
+	background-color: #291a3a;
+	color: white;
+}
+
+/*.nav-tabs > ul {
+	background-color: #291a3a;
+}*/
+
+.nav-tabs > li > a {
+	text-align: center;
+	color: white;
+}
+
+.nav-tabs > .navbar-form {
+	margin-right: 10px;
+}
+
+.nav-tabs > li.active > a:hover {
+	background-color: #291a3a;
+}
+
+.nav-tabs > li > a:hover {
+	background-color: #000000;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	padding-top: 15px;
+}
+
+#fotoPerfil {
+	width: auto;
+	height: 300px;
+}
+
+.Title {
+	font-family: 'Kite One', sans-serif;
+	text-align: center;
+}
+
+.Author {
+	font-family: 'Cedarville Cursive', cursive;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.hook {
+	text-align: justify;
+	padding: 5%;
+}
+
+#hookBreak, #imageBreak {
+	height: 20px;
+}
+
+#book1, #book3 {
+	background-color: rgba(41, 26, 58, .2);
+}
+
+#book4 {
+	display: none;
+}
+
+
+#Sneakpeak{
+	text-align: center;
+}
+
+.btn > a {
+	color: black;
+}
+
+#Links {
+	text-align: center;
+}
+
+#contador {
+	text-align: center;
+	display: inline-block;
+}
+
+#like, #dislike {
+	text-align: center;
+}
+
+#buttons1, #buttons2, #buttons3, #buttons4 {
+	text-align: center;
+}
+
+#lcounterbook1, #dcounterbook1, #lcounterbook2, #dcounterbook2, #lcounterbook3, #dcounterbook3, #lcounterbook4, #dcounterbook4 {
+	text-align: center;
+	display: inline-block;
+	margin-left: 120px;
+}
