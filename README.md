@@ -18,7 +18,7 @@ We create a bookshelf that functions as a queue. Meaning that the first books to
 The main website (Unlimited Book Works [UBW]) has three display cases (columns).
 
 Function BookShelf() {
-	this.shelf = new Queue();
+ this.shelf = new Queue();
   
 ***
 
@@ -26,13 +26,13 @@ Next we have a .load function inside our Bookshelf. It's this function (that is 
 
 this.load = function() {
 
-		var url = "https://www.googleapis.com/books/v1/volumes?q=Pratchett";
+var url = "https://www.googleapis.com/books/v1/volumes?q=Pratchett";
     
-    var currentShelf = this; // This will allow us to use the term "currentShelf" when referring to the object BookShelf
+var currentShelf = this; // This will allow us to use the term "currentShelf" when referring to the object BookShelf
 
-		$.get(url)
-			.done(function(data) {
-				currentShelf.parseBooks(data);
+  $.get(url)
+    .done(function(data) {
+      currentShelf.parseBooks(data);
         
 ***
 
